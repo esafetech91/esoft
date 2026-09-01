@@ -1,0 +1,244 @@
+/* Services page */
+.services-page {
+  padding: 56px 0 80px;
+}
+
+.services-page__header {
+  max-width: 720px;
+  margin-bottom: 48px;
+}
+
+.services-page__title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.services-page__subtitle {
+  font-size: 1.0625rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  max-width: 640px;
+}
+
+/* Service cards grid */
+.services-grid {
+  margin-bottom: 64px;
+}
+
+.services-grid__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.services-grid__inner .reveal,
+.services-grid__inner .tilt-card {
+  height: 100%;
+}
+
+.service-card {
+  padding: 28px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  height: 100%;
+}
+
+.service-card__image-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 10;
+  margin-bottom: 24px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  overflow: hidden;
+  perspective: 700px;
+}
+
+.service-card__image-wrap .float-3d {
+  width: 100%;
+  height: 100%;
+}
+
+.service-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+}
+
+.service-card__description {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.service-card__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-card__list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.45;
+}
+
+.service-card__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+}
+
+/* Engagement models */
+.services-engagement {
+  margin-bottom: 48px;
+}
+
+.services-engagement__heading {
+  font-size: clamp(1.75rem, 3vw, 2.125rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+}
+
+.services-engagement__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.services-engagement__grid .reveal,
+.services-engagement__grid .tilt-card {
+  height: 100%;
+}
+
+.engagement-card {
+  padding: 32px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  height: 100%;
+}
+
+.engagement-card__number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 3px 6px rgba(37, 99, 235, 0.2));
+}
+
+.engagement-card__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+}
+
+.engagement-card__description {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+/* CTA banner */
+.services-cta__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 40px 48px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+}
+
+.services-cta__card .tilt-card__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+}
+
+.services-cta__content {
+  flex: 1;
+}
+
+.services-cta__title {
+  font-size: clamp(1.375rem, 2.5vw, 1.625rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.services-cta__text {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  max-width: 480px;
+}
+
+.services-cta__btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+  .services-grid__inner {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .services-engagement__grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .services-cta__card .tilt-card__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-cta__btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-page {
+    padding: 32px 0 56px;
+  }
+
+  .service-card,
+  .engagement-card {
+    padding: 24px;
+  }
+
+  .services-cta__card {
+    padding: 32px 24px;
+  }
+}
