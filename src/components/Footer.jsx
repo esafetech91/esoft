@@ -28,7 +28,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <p className="footer__copy">
-          &copy; 2026 ESoft Technologies Inc.
+          &copy; 2026 ESafe Tech Inc.
         </p>
 
         <nav className="footer__nav" aria-label="Footer navigation">
@@ -41,17 +41,17 @@ function Footer() {
 
         {showWebsite ? (
           <a
-            href="https://www.esafe-tech.com"
+            href="https://www.esafetech.us"
             className="footer__website"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GlobeIcon />
-            www.esafe-tech.com
+            www.esafetech.us
           </a>
         ) : (
-          <a href="mailto:privacy@esoft-tech.com" className="footer__privacy">
-            privacy@esoft-tech.com
+          <a href="mailto:contact@esafetech.us" className="footer__privacy">
+            contact@esafetech.us
           </a>
         )}
       </div>

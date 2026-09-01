@@ -50,7 +50,7 @@ function Hero() {
           </h1>
 
           <p className="hero__subtitle">
-            ESoft Technologies designs and ships modern software and AI
+            ESafe Tech designs and ships modern software and AI
             systems — web products, cloud backends, and intelligent
             applications that hold up under real users and real production
             loads.

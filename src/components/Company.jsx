@@ -52,7 +52,7 @@ function Company() {
             <div className="company__content">
               <h2 className="company__title heading-3d">The company</h2>
               <p className="company__text">
-                ESoft Technologies was incorporated in Illinois in 2023. We build
+                ESafe Tech was incorporated in Illinois in 2023. We build
                 software and AI systems for teams that need their work to
                 survive real users, real scale, and real production demands.
               </p>

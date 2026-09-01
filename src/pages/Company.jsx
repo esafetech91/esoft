@@ -59,7 +59,7 @@ const companyMeta = [
   {
     icon: BuildingIcon,
     label: 'Entity',
-    value: 'ESoft Technologies Inc. — Domestic corporation, Illinois',
+    value: 'ESafe Tech Inc.',
   },
   {
     icon: NetworkIcon,
@@ -69,7 +69,7 @@ const companyMeta = [
   {
     icon: PinIcon,
     label: 'Location',
-    value: '107 E Springfield Ave, Champaign, IL 61820',
+    value: '720 Olive Street, Suite 1550, St. Louis, Missouri 63101, United States',
   },
 ]
 
@@ -84,7 +84,7 @@ function CompanyPage() {
               <span className="text-gradient text-gradient-3d">long memory.</span>
             </h1>
             <p className="company-hero__text">
-              ESoft Technologies is an Illinois corporation founded on April 3,
+              ESafe Tech is an Illinois corporation founded on April 3,
               2023 and operating out of Champaign. We work with product teams
               and founders who need software and AI work delivered carefully
               the first time.

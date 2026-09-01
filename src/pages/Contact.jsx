@@ -73,20 +73,20 @@ const contactDetails = [
   {
     icon: MailIcon,
     label: 'Email',
-    value: 'tamer.ahmed@besafe-tech.com',
-    href: 'mailto:tamer.ahmed@besafe-tech.com',
+    value: 'contact@esafetech.us',
+    href: 'mailto:contact@esafetech.us',
   },
   {
     icon: PhoneIcon,
     label: 'Phone',
-    value: '+1 (979) 312-4180',
-    href: 'tel:+19793124180',
+    value: '+1 (361) 250-1016',
+    href: 'tel:+13612501016',
   },
   {
     icon: PinIcon,
     label: 'Office',
-    value: '107 E Springfield Ave, Champaign, IL 61820',
-    href: 'https://maps.google.com/?q=107+E+Springfield+Ave,+Champaign,+IL+61820',
+    value: '720 Olive Street, Suite 1550, St. Louis, Missouri 63101, United States',
+    href: 'https://maps.google.com/?q=720+Olive+Street,+Suite+1550,+St.+Louis,+MO+63101',
   },
   {
     icon: ClockIcon,
@@ -166,13 +166,13 @@ function Contact() {
               </p>
               <div className="contact-project__actions">
                 <a
-                  href="mailto:tamer.ahmed@besafe-tech.com"
+                  href="mailto:contact@esafetech.us"
                   className="btn btn--primary"
                 >
                   <BtnMailIcon />
                   Email us
                 </a>
-                <a href="tel:+19793124180" className="btn btn--secondary">
+                <a href="tel:+13612501016" className="btn btn--secondary">
                   <BtnPhoneIcon />
                   Call us
                 </a>

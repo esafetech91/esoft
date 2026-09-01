@@ -16,7 +16,7 @@ function Navbar() {
       <div className="container navbar__inner">
         <Link to="/" className="navbar__brand">
           <Logo />
-          <span>ESoft Technologies</span>
+          <span>ESafe Tech</span>
         </Link>
 
         <nav className="navbar__nav" aria-label="Main navigation">

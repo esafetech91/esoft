@@ -1,6 +1,6 @@
-# ESoft Technologies — Company Website
+# ESafe Tech — Company Website
 
-A React.js marketing site for ESoft Technologies, focused on software development and AI.
+A React.js marketing site for ESafe Tech, focused on software development and AI.
 
 ## Getting started
 

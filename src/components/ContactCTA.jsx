@@ -47,13 +47,13 @@ function ContactCTA() {
               you achieve your goals.
             </p>
             <div className="contact-cta__actions">
-              <a href="mailto:tamer.ahmed@besafe-tech.com" className="btn btn--primary contact-cta__btn">
+              <a href="mailto:contact@esafetech.us" className="btn btn--primary contact-cta__btn">
                 <MailIcon />
-                tamer.ahmed@besafe-tech.com
+                contact@esafetech.us
               </a>
-              <a href="tel:+19793124180" className="btn btn--secondary contact-cta__btn">
+              <a href="tel:+13612501016" className="btn btn--secondary contact-cta__btn">
                 <PhoneIcon />
-                +1 (979) 312-4180
+                +1 (361) 250-1016
               </a>
             </div>
           </TiltCard>
